@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto Mono', monospace;
+}
+.nav-bar{
+    background-color: black;
+    color: white;
+    margin: 0% 10% 16px 10%;
+    padding:8px 16px;
+}
+.current-title{
+    text-align: center;
+    margin: 0px 10% 16px 10%;
+}
+.main-section{
+    margin: 0% 10% 0px 10%; ;
+    display: flex;
+}
+.col-1{
+    flex:1;
+    margin: 0px 8px 0px 0px;
+}
+.col-2{
+    flex:2;
+    margin: 0px 0px 0px 8px;
+}
+.avatar{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    width: fit-content;
+    min-width: fit-content;
+}
+
+.avatar .profile-pic{
+    height:5rem;
+    display: flex;
+    border-radius: 50%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 16px 0px;
+}
+
+.avatar .edit-profile{
+    display: flex;
+    color: dodgerblue;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 16px 0px;
+}
+.card{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 16px;
+    min-width: 22rem;
+    margin: 0px 0px 8px 0px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 16px 0px;
+}
+.card-header h2{
+    flex: 1;
+}
+.card-header button{
+    margin: 0px 0px 0px 16px;
+    padding: 2px 8px;
+    box-sizing: border-box;
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+}
+.card p a{
+    color: dodgerblue;
+}

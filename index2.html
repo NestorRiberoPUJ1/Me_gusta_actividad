@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Like Activity</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1>Network</h1>
+    </nav>
+    <h1 class="current-title">Your Feed</h1>
+    <section class="main-section">
+        <div class="col-1">
+            <div class="avatar">
+                <img class="profile-pic" src="assets/images/profile.png" alt="Profile picture">
+                <a class="edit-profile" href="">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="card" id="NeilM-card">
+                <div class="card-header">
+                    <h2>Neil M</h2>
+                    <h3 class="like-count">9 like(s)</h3>
+                    <button onclick="addLike('#NeilM-card h3')">Like</button>
+                </div>
+                <p>I just set up this new Discord bot, let me know what you all think. <a href="">link</a></p>
+            </div>
+            <div class="card" id="NicoleK-card">
+                <div class="card-header">
+                    <h2>Nicole K</h2>
+                    <h3 class="like-count">12 like(s)</h3>
+                    <button onclick="addLike('#NicoleK-card h3')">Like</button>
+                </div>
+                <p>Just finished my <a href="">next comic</a>, check it out.</p>
+            </div>
+            <div class="card" id="JimR-card">
+                <div class="card-header">
+                    <h2>Jim R</h2>
+                    <h3 class="like-count">9 like(s)</h3>
+                    <button onclick="addLike('#JimR-card h3')">Like</button>
+                </div>
+                <p>I can´t stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
